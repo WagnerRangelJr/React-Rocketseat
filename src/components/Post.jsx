@@ -35,7 +35,7 @@ export function Post({ author, publishedAt, content }) {
         const newCommentText= event.target.comment.value
         setComments([...comments, newCommentText]);
 
-        event.target.comment.value = '';
+        event.target.comment.value = ''; 
     }
     return (
     
